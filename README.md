@@ -84,9 +84,9 @@ assistente-publicacoes-gemini/
 📸 Prints do Projeto
 ### Exemplo de interação e execução:
 
-![Execução do script e interação](prints/projeto-elo-1.png)
+![Execução do script e interação](print/projeto-elo-1.png)
 
-![Erro de quota da Gemini API](prints/projeto-elo-2.png)
+![Erro de quota da Gemini API](print/projeto-elo-2.png)
 
 
 
