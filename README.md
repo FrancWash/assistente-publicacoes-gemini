@@ -104,6 +104,9 @@ O Function Calling da Gemini chama as funções Python certas conforme a convers
 
 ```text
 assistente-publicacoes-gemini/
+├── print/
+│   ├── projeto-elo-1.png
+│   ├── projeto-elo-2.png
 ├── src/
 │   ├── main.py
 │   ├── __init__.py
