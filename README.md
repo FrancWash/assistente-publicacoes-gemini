@@ -9,7 +9,7 @@ Assistente de Publicações Elo Editorial 📚🤖
 - [Como funciona por tras dos panos](#como-funciona-por-tras-dos-panos)
 - [Estrutura do Projeto](#estrutura-do-projeto)
 - [Prints do Projeto](#prints-do-projeto)
-- [Exemplo de interacao e execucao](#exemplo-de-interacao-e-execucao)
+- [Exemplo de interação e execução](#exemplo-de-interacao-e-execucao)
 - [Dicas Importantes](#dicas-importantes)
 - [FAQ](#faq)
 - [Autor](#autor)
