@@ -1,5 +1,20 @@
 Assistente de Publicações Elo Editorial 📚🤖
+
+## 📑 Sumário
+
+- [Funcionalidades](#funcionalidades)
+- [Tecnologias Utilizadas](#tecnologias-utilizadas)
+- [Como Rodar o Projeto](#como-rodar-o-projeto)
+- [Exemplo de Uso](#exemplo-de-uso)
+- [Como funciona por trás dos panos](#como-funciona-por-trás-dos-panos)
+- [Estrutura do Projeto](#estrutura-do-projeto)
+- [Prints do Projeto](#prints-do-projeto)
+- [Dicas Importantes](#dicas-importantes)
+- [FAQ](#faq)
+- [Autor](#autor)
+
 Este projeto é um chatbot inteligente desenvolvido para o desafio do Grupo Elo Editorial. Ele utiliza a API Gemini do Google, com Function Calling, para fornecer informações sobre livros do catálogo Elo Editora e Perabook – e ajudar leitores a encontrar onde comprar nossos títulos, tanto em lojas físicas quanto online.
+
 
 🚀 Funcionalidades
 Busca inteligente de livros: Data de lançamento, selo editorial, autor e sinopse.
@@ -10,6 +25,7 @@ Memória de contexto: Se você pergunta sobre um livro e depois pergunta "onde e
 
 Conversação natural: Mantém histórico das interações.
 
+
 🛠️ Tecnologias Utilizadas
 Python 3.8+
 
@@ -18,6 +34,7 @@ Google Gemini API (via google-generativeai)
 python-dotenv para segurança da chave
 
 Dados em JSON simulando um catálogo real
+
 
 📦 Como Rodar o Projeto
 Clone o repositório
@@ -50,6 +67,7 @@ Execute o chat
 
 python main.py
 
+
 💡 Exemplos de Uso
 Bem-vindo ao Assistente Editorial Elo! Digite 'sair' para encerrar.
 
@@ -63,12 +81,14 @@ Assistente: Você pode comprar em: Livraria da Vila, Livraria Cultura.
 Você: E online?
 Assistente: Online, o livro "A Abelha" está disponível em: Amazon.com.br, Loja Elo Editorial.
 
+
 🔍 Como funciona por trás dos panos?
 get_book_details: Busca pelo título e retorna data, autor, sinopse, selo editorial.
 
 find_stores_selling_book: Busca lojas físicas (por cidade) ou online onde o livro está disponível.
 
 O Function Calling da Gemini chama as funções Python certas conforme a conversa.
+
 
 🗃️ Estrutura do Projeto
 assistente-publicacoes-gemini/
@@ -81,12 +101,14 @@ assistente-publicacoes-gemini/
 ├── .env.example
 └── README.md
 
+
 📸 Prints do Projeto
 ### Exemplo de interação e execução:
 
 ![Execução do script e interação](print/projeto-elo-1.png)
 
 ![Erro de quota da Gemini API](print/projeto-elo-2.png)
+
 
 
 
@@ -97,12 +119,16 @@ Se atingir o limite gratuito da Gemini, aguarde alguns minutos ou configure um p
 
 O chat é 100% local, sua chave não será exposta para terceiros.
 
+
+
 ❓ FAQ
 Preciso de chave de cartão de crédito para rodar?
 R: Não, para testes pequenos, o free tier da Gemini já atende.
 
 Posso adaptar para outros catálogos?
 R: Sim! Basta trocar o arquivo mock_catalog.json.
+
+
 
 ## 👤 Autor
 
