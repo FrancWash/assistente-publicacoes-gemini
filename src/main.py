@@ -44,13 +44,14 @@ tools = [
 CATALOG_PATH = os.path.join(os.path.dirname(__file__), "..", "mock_catalog.json")
 
 
-# Função para carregar o catálogo
+# Função para carregar o catálogo de livros a partir do arquivo JSON
 def carregar_catalogo():
     with open(CATALOG_PATH, "r", encoding="utf-8") as f:
         catalogo = json.load(f)
     return catalogo
 
 
+# Função para buscar detalhes de um livro pelo título no catálogo
 def get_book_details(catalogo, book_title):
     for book in catalogo["books"]:
         if book["title"].lower() == book_title.lower():
@@ -64,6 +65,7 @@ def get_book_details(catalogo, book_title):
     return None
 
 
+# Função para encontrar lojas físicas (por cidade) ou online onde o livro está disponível
 def find_stores_selling_book(catalogo, book_title, city=None):
     for book in catalogo["books"]:
         if book["title"].lower() == book_title.lower():
@@ -91,6 +93,7 @@ def find_stores_selling_book(catalogo, book_title, city=None):
 #        historico.append({"role": "assistant", "text": resposta})
 
 
+# Loop principal do chat: gerencia a conversa, chama o Gemini e executa funções via Function Calling
 def chat_loop_gemini(model, catalogo):
     print("\nBem-vindo ao Assistente Editorial Elo! Digite 'sair' para encerrar.\n")
     historico = []
