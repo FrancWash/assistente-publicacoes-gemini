@@ -120,7 +120,7 @@ assistente-publicacoes-gemini/
 
 ## Prints do Projeto
 
-### Exemplo de interação e execução
+## Exemplo de interação e execução
 
 ![Execução do script e interação](print/projeto-elo-1.png)
 
