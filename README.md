@@ -77,13 +77,17 @@ python main.py
 Bem-vindo ao Assistente Editorial Elo! Digite 'sair' para encerrar.
 
 Você: Quero saber sobre o livro A Abelha
+
 Assistente: "A Abelha", de Milton Célio de Oliveira Filho, publicado pela Elo Editora em 15/04/2022.
+
 Sinopse: Uma obra delicada que explora o universo das abelhas e sua importância para a natureza...
 
 Você: Onde encontro esse livro em São Paulo?
+
 Assistente: Você pode comprar em: Livraria da Vila, Livraria Cultura.
 
 Você: E online?
+
 Assistente: Online, o livro "A Abelha" está disponível em: Amazon.com.br, Loja Elo Editorial.
 
 
@@ -98,15 +102,16 @@ O Function Calling da Gemini chama as funções Python certas conforme a convers
 
 ## Estrutura do Projeto
 
+```text
 assistente-publicacoes-gemini/
-│
 ├── src/
-│ ├── main.py
-│ ├── init.py
-│ └── mock_catalog.json
+│   ├── main.py
+│   ├── __init__.py
+│   └── mock_catalog.json
 ├── requirements.txt
 ├── .env.example
 └── README.md
+```
 
 
 ## Prints do Projeto
