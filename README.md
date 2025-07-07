@@ -16,7 +16,7 @@ Assistente de Publicações Elo Editorial 📚🤖
 Este projeto é um chatbot inteligente desenvolvido para o desafio do Grupo Elo Editorial. Ele utiliza a API Gemini do Google, com Function Calling, para fornecer informações sobre livros do catálogo Elo Editora e Perabook – e ajudar leitores a encontrar onde comprar nossos títulos, tanto em lojas físicas quanto online.
 
 
-🚀 ## Funcionalidades
+## 🚀 Funcionalidades
 
 Busca inteligente de livros: Data de lançamento, selo editorial, autor e sinopse.
 
@@ -38,7 +38,7 @@ python-dotenv para segurança da chave
 Dados em JSON simulando um catálogo real
 
 
-📦 ## Como Rodar o Projeto
+## 📦 Como Rodar o Projeto
 
 Clone o repositório
 
@@ -71,7 +71,7 @@ Execute o chat
 python main.py
 
 
-💡 ## Exemplos de Uso
+## 💡 Exemplos de Uso
 
 Bem-vindo ao Assistente Editorial Elo! Digite 'sair' para encerrar.
 
@@ -86,7 +86,7 @@ Você: E online?
 Assistente: Online, o livro "A Abelha" está disponível em: Amazon.com.br, Loja Elo Editorial.
 
 
-🔍 ## Como funciona por trás dos panos?
+## 🔍 Como funciona por trás dos panos?
 
 get_book_details: Busca pelo título e retorna data, autor, sinopse, selo editorial.
 
@@ -95,7 +95,7 @@ find_stores_selling_book: Busca lojas físicas (por cidade) ou online onde o liv
 O Function Calling da Gemini chama as funções Python certas conforme a conversa.
 
 
-🗃️ ## Estrutura do Projeto
+## 🗃️ Estrutura do Projeto
 
 assistente-publicacoes-gemini/
 │
@@ -108,7 +108,7 @@ assistente-publicacoes-gemini/
 └── README.md
 
 
-📸 ## Prints do Projeto
+## 📸 Prints do Projeto
 
 ### Exemplo de interação e execução:
 
@@ -119,7 +119,7 @@ assistente-publicacoes-gemini/
 
 
 
-⚠️ ## Dicas Importantes
+## ⚠️ Dicas Importantes
 
 NUNCA compartilhe sua chave API real (.env). Envie apenas o .env.example sem a chave.
 
@@ -129,7 +129,7 @@ O chat é 100% local, sua chave não será exposta para terceiros.
 
 
 
-❓ ## FAQ
+## ❓ FAQ
 
 Preciso de chave de cartão de crédito para rodar?
 R: Não, para testes pequenos, o free tier da Gemini já atende.
